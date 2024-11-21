@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.nevbar {
+    width: 1280px;
+    height: 60px;
+    width: 100%;
+    /* background-color: rgb(246, 241, 241); */
+    display: flex;
+
+
+}
+
+#pictures {
+    margin-left: 300px;
+    margin-top: 20px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+img {
+    padding-left: 20px;
+}
+
+.links {
+
+    margin-left: 350px;
+    margin-top: 20px;
+    display: flex;
+}
+
+a {
+    padding-left: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    width: 1280px;
+    height: 532.5px;
+    /* background-color: red; */
+    display: flex;
+}
+
+.simple {
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin-right: 60px;
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    width: 94px;
+    height: 36px;
+    background-color: #F5EE84;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.profile {
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(102, 255, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.proImg {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.proSecImg {
+    position: absolute;
+    left: 380px;
+    top: 100px;
+}
+
+span {
+    color: #c7ba00;
+    letter-spacing: 2px;
+}
+
+
+@media screen and (max-width:600px) {
+
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .nevbar {
+        width: 100%;
+        color: #fff;
+        padding: 0;
+        background-color: #1f1f1f;
+    }
+
+    .links {
+        margin: 20px;
+    }
+
+    .links a {
+        color: #fff;
+    }
+
+    #pictures {
+        width: 100%;
+        height: 35px;
+        background-color: #1f1f1f;
+        position: absolute;
+        right: 0;
+        top: 660px;
+        text-align: center;
+        padding-top: 15px;
+        z-index: 2;
+    }
+
+    .main {
+        width: 370px;
+        height: 675px;
+        /* background-color: purple; */
+        position: relative;
+    }
+
+    .simple {
+        width: 100%;
+        height: 40%;
+        display: block;
+        padding: 3rem 1rem;
+        text-align: start;
+        /* background-color: rebeccapurple; */
+    }
+
+    .simple h1 {
+        font-size: 66px;
+    }
+
+    .profile {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 310px;
+        left: -280px;
+    }
+
+    .proSecImg {
+        position: absolute;
+        left: 240px;
+        top: 20%;
+    }
+}
